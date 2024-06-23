@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    padding: 20px;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, .star {
+    margin-bottom: 20px;
+    color: hsl(169, 82%, 27%);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: hsl(187, 24%, 22%);
+    font-size: 16px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: hsl(169, 82%, 27%);
+    outline: none;
+}
+
+button {
+    background-color: hsl(169, 82%, 27%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: hsl(169, 84%, 15%);
+}
+
+.error-message {
+    color: #d9534f;
+    display: none;
+    margin-top: 5px;
+}
+
+input.error, select.error, textarea.error {
+    border-color: #d9534f;
+}
+
+.form-success {
+    display: none;
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+}
